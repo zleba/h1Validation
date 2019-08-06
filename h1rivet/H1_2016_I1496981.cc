@@ -96,7 +96,7 @@ public:
       double pT_dijet = 0. ;  
       double pT_trijet = 0. ;  
 
-      foreach (const Jet& j, jets) {
+      for (const Jet& j : jets) {
          double pT = j.Et() ;
 
          //if (pT< 4*GeV) continue;
