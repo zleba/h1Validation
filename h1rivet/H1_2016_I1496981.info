@@ -1,0 +1,66 @@
+Name: H1_2016_I1496981
+Year: 2016
+Summary: jet production in ep collisions at HERA, sqrt(s)=319 GeV
+Experiment: H1
+Collider: HERA
+InspireID: 1496981
+Status: Validated against H1 non-radiative MC samples (DJANGO and RAPGAP)
+Authors: 
+ - Salome Fresenbet <salome.fresenbet@desy.de>
+ - Stefan Schmitt <stefan.schmitt@desy.de>
+References:
+ - 'Eur.Phys.J.C77 (2017) 4, 215'
+ - 'DOI: 10.1140/epjc/s10052-017-4717-9'
+ - 'arxiv:1611.03421'
+RunInfo: ep collisions, corrected for radiative and electroweak effects, jet
+ reconstructed in Breit frame with eta cut in laboratory frame
+NeedCrossSection: yes
+Beams: [e+, p]
+Energies: [ [27.6,920.] ]
+Luminosity_fb: 0.290
+Description:
+ Measurement of inclusive jet, dijet and trijet cross sections in ep
+ collisions  with the H1 deterctor at HERA. The scattered electron has
+ momentum transfer in the range $5.5<Q^2<80$ GeV$^2$ and inelasticity
+ $0.2<y<0.6$. For low jet transverse momenta $5<P_T<7$ GeV there are also 
+ measurements at high momentum transfer $150<Q^2<15000$ GeV$^2$.
+ All distributions are corrected for electroweak and
+ radiative effects, so radiation of ISR and FSR photons off the
+ electron line must be disabled in the MC generators, as well as Z-exchange.
+ Jets are reconstructed from all final state particles excluding the
+ electron, after boosting to the Breit frame. The KT jet algorithm
+ with radius $R=1$ and the massless PT recombination scheme is
+ used. Jets which have a pseudorapidity in the laboratory frame
+ outside the range $2.5<\eta_{lab}<-1.0$ are discarded. Jet cross
+ sections are measured double-differentially in the momentum transfer
+ $Q^2$ and in jet transverse momenta in the Breit frame. Inclusive jet
+ production cross sections are measured in the transverse momentum
+ range $4.5<p_{t,jet}<50$ GeV. Dijet (Trijet) cross sections are
+ measured as a function of the average transverse momenta  of the two
+ (three) leading jets. For dijets, the average transverse momenta
+ range is $5<\langle p_{T}\rangle_2<50$ GeV, wheras for Trijets the
+ range is $5.5<\langle p_{T}\rangle_3<40$ GeV. In addition to
+ measuring absolute cross sections, also cross section normalized to
+ inclusive DIS (i.e. jet production rates in DIS) are measured.
+ The data are expected to be sensitive to parton shower moddeling,
+ higher order perturbative QCD effects, the guon density and the
+ strong coupling.
+Keywords: [ep, jets, HERA, gluon-density]
+BibKey: Andreev:2016tgi
+BibTeX: '@article{Andreev:2016tgi,
+      author         = "Andreev, Vladimir and others",
+      title          = "{Measurement of Jet Production Cross Sections in
+                        Deep-inelastic ep Scattering at HERA}",
+      collaboration  = "H1",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "4",
+      pages          = "215",
+      doi            = "10.1140/epjc/s10052-017-4717-9",
+      eprint         = "1611.03421",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "DESY-16-200",
+      SLACcitation   = "%%CITATION = ARXIV:1611.03421;%%"
+}'
